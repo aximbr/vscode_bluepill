@@ -1,0 +1,31 @@
+#VS Code Related
+*/.vscode/
+.vscode/
+
+#Build Results
+*.o
+*.d
+*.eep
+*.elf
+*.hex
+*.map
+*.srec
+*.lib
+*.com
+*.exe
+*.dll
+*.so
+*.out
+*.app
+
+#CMake Related
+**/cmake-build-debug
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CMakeFiles/
+**/CTestTestfile.cmake
+**/Makefile
+**/*.cbp
+**/CMakeScripts
+**/compile_commands.json
